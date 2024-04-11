@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./main.js"></script>
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <h1>Ejercicio 5</h1>
+    <strong
+      >Crear un programa en JavaScript para generar contraseñas. Dicho programa
+      cumplirá las siguientes condiciones:
+    </strong>
+    <ol>
+      <li>Dados tres arrays con los siguientes contenidos:</li>
+      <ul>
+        <li>
+          Un array que contenga las letras minúsculas (a-z) y mayúsculas (A-Z).
+        </li>
+        <li>Un array con los números (0-9).</li>
+        <li>Un array con caracteres especiales (diez caracteres).</li>
+      </ul>
+      <li>
+        El programa pedirá al usuario que introduzca una de las siguientes
+        opciones:
+      </li>
+      <ul>
+        <li>D: Generar una contraseña débil.</li>
+        <li>F: Generar una contraseña fuerte.</li>
+        <li>T. Terminar</li>
+      </ul>
+    </ol>
+
+    <h3>Funcionamiento:</h3>
+    <ul>
+      <li>Las contraseñas se mostrarán por consola.</li>
+      <li>
+        El programa pedirá al usuario que introduzca una opción hasta que elija
+        terminar.
+      </li>
+      <li>
+        Si se introduce una opción no válida se informará al usuario en una
+        ventana y volverá a pedir una opción.
+      </li>
+      <li>Debe aceptar las opciones en mayúscula y minúscula.</li>
+      <li>
+        Se crearán al menos dos funciones, una para contraseña débil y otra para
+        contraseña fuerte.
+      </li>
+    </ul>
+
+    <h3>Características de las contraseñas:</h3>
+
+    <p><strong>Contraseña débil</strong></p>
+    <ul>
+      <li>Compuesta por 5 letras y 3 números.</li>
+      <li>Se utilizarán los arrays definidos en el programa principal.</li>
+      <li>Tanto la posición como el valor se obtendrán de forma aleatoria.</li>
+    </ul>
+
+    <p><strong>Contraseña fuerte</strong></p>
+    <ul>
+      <li>Compuesta por 6 letras, 4 números y 3 caracteres especiales.</li>
+      <li>Se utilizarán los arrays definidos en el programa principal.</li>
+      <li>Tanto la posición como el valor se obtendrán de forma aleatoria.</li>
+      <li>
+        En la primera posición aparecerá un carácter especial, la primera letra
+        generada debe ser obligatoriamente mayúscula, el resto minúsculas y
+        ningún valor se podrá repetir.
+      </li>
+    </ul>
+    <h3>Resultados</h3>
+    <p>Débil: 47TA9ZQd</p>
+    <p>Débil: o5ña5A4h</p>
+    <p>Fuerte: ?16$4LA2Y(IhJ</p>
+    <p>Fuerte: &OI#=t890Prñ2</p>
+    <p>Fuerte: @=sdQ57F?B38i</p>
+  </body>
+</html>
